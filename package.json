@@ -1,0 +1,31 @@
+{
+  "name": "@ddder/global-expose-loader",
+  "version": "0.0.1-alpha.1",
+  "description": "expose module.exports to global for webpack",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "del-cli dist",
+    "build": "tsc",
+    "prebuild": "npm run clean",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ddder-FE/global-expose-loader.git"
+  },
+  "author": "samhwang1990@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ddder-FE/global-expose-loader/issues"
+  },
+  "homepage": "https://github.com/Ddder-FE/global-expose-loader#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "del-cli": "1.1.0",
+    "tsc": "^1.20150623.0"
+  },
+  "dependencies": {}
+}
